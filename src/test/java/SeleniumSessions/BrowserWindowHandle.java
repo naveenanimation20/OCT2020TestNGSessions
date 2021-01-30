@@ -40,8 +40,10 @@ public class BrowserWindowHandle {
 		driver.quit();
 		
 		
-		
-		
+	}
+	
+	public void test() {
+		System.out.println("Remote test method....");
 	}
 
 }
