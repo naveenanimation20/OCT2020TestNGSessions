@@ -59,6 +59,8 @@ public class CalendarHadnling {
 		}
 	}
 	
-	
+	public static void selectDate(String day, int number) {
+		driver.findElement(By.xpath("//a[text()='"+day+"']")).click();
+	}
 
 }
